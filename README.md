@@ -24,7 +24,6 @@ postcss([
   "autoprefixer": "^6.7.7",
   "css-mqpacker": "^5.0.1",
   "cssnano": "^3.10.0",
-  "lodash.compact": "^3.0.1",
   "postcss-animation": "^0.0.12",
   "postcss-assets": "^4.1.0",
   "postcss-colorblind": "^1.0.0",
