@@ -1,4 +1,4 @@
-# Postcss presets
+# Postcss preset
 
 [![XO code style](https://img.shields.io/badge/code_style-XO-5ed9c7.svg)](https://github.com/sindresorhus/xo)
 
@@ -31,10 +31,10 @@ postcss([
   "postcss-flexbugs-fixes": "^2.1.0",
   "postcss-focus": "^1.0.0",
   "postcss-font-magician": "^1.6.1",
+  "postcss-modules": "^0.6.4",
   "postcss-octicon": "^0.0.1",
   "postcss-resemble-image": "^2.1.1",
   "postcss-sprites": "^4.2.0",
-  "postcss-svg": "^1.0.6",
   "postcss-will-change": "^1.1.0",
   "postcss-yu-gothic": "^0.0.5"
 },
@@ -54,9 +54,12 @@ const default = {
   // Specify project image directory
   // (`postcssAssets.loadPaths`)
   imagePaths: [],
+  // Specify whether to modularize
+  // (`postcssModules`)
+  module: false, // or `({fileName, json}) => {}`
   // Minify if it is true
   // (`cssMqpacker` & `cssnano`)
-  minify: false
+  minify: false // or `true`
 }
 ```
 
