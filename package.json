@@ -1,7 +1,7 @@
 {
   "name": "@nju33/postcss-preset",
   "description": "Preset for nju33",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "author": "nju33 <nju33.ki@gmail.com>",
   "dependencies": {
     "autoprefixer": "^6.7.7",
