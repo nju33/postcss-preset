@@ -3899,6 +3899,12 @@ postcss-assets@^4.1.0:
     postcss "^5.0.12"
     postcss-functions "^2.1.0"
 
+postcss-blokk@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/postcss-blokk/-/postcss-blokk-0.0.2.tgz#63eebad853ff20f9b6c861b4eda01cf9a3311d06"
+  dependencies:
+    postcss "^5.2.16"
+
 postcss-calc@^5.2.0:
   version "5.3.1"
   resolved "https://registry.yarnpkg.com/postcss-calc/-/postcss-calc-5.3.1.tgz#77bae7ca928ad85716e2fda42f261bf7c1d65b5e"
